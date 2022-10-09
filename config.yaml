@@ -8,4 +8,4 @@ train:
 ---
 optimize:
     bayes_opt: !!bool True # if hyperparams tuning is use
-    max_evals: 1 # max trials to run
+    max_evals: 100 # max trials to run
