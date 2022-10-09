@@ -1,0 +1,9 @@
+name: gender_classification
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=22.2.2
+  - pip:
+    - -r requirements.txt

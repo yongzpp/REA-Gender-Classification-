@@ -1,0 +1,11 @@
+---
+data:
+    path: "./name_gender.csv" # training data
+    test_path: "./name_gender.csv" # if predictions to be made
+---
+train:
+    ngram: [3,7] # use n[0], n[0]+1, ..., n[1] grams as features
+---
+optimize:
+    bayes_opt: !!bool True # if hyperparams tuning is use
+    max_evals: 1 # max trials to run
